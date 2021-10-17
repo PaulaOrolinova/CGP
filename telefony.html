@@ -7,13 +7,13 @@
 body {background-color: rgba(255, 255, 255, 0.877);}
 h1   {color: indigo; font-size: 60px ; font-family: 'Lucida Sans', 'Courier New', Courier,;}
 h2   {color:rgb(106, 51, 168); font-size: 21px}
-p    {color: rgb(121, 7, 60); font-size: larger;}
+p    {color: rgb(0, 0, 0); font-size: larger;}
 </style>
 
 </head>
 
 <body>
-    <h1> Telefóny </h1>
+    <h1 id="uvod"> Telefóny </h1>
 
     <hr/>
         <a href="index.html"><button> Domov </button></a>
@@ -35,9 +35,9 @@ p    {color: rgb(121, 7, 60); font-size: larger;}
 
             <h3> Parametre:</h3>
             <ul>
-                <li> Uhlopriečka: 6.4" </li>
-                <li> Šírka: 73.6 mm </li>
-                <li> Výška: 159.3 mm </li>
+                <li> Uhlopriečka: 6,4" </li>
+                <li> Šírka: 73,6 mm </li>
+                <li> Výška: 159,3 mm </li>
                 <li> Hmotnosť:  186 g </li>
                 <li> Hlavný fotoaparát: 48 Mpx </li>
                 <li> Kapacita batérie: 5000 mAh </li>
@@ -62,8 +62,8 @@ p    {color: rgb(121, 7, 60); font-size: larger;}
             <h3> Parametre:</h3>
             <ul>
                 <li> Uhlopriečka: 6,5" </li>
-                <li> Šírka: 75.1 mm </li>
-                <li> Výška: 159.9 mm </li>
+                <li> Šírka: 75,1 mm </li>
+                <li> Výška: 159,9 mm </li>
                 <li> Hmotnosť:  189 g </li>
                 <li> Hlavný fotoaparát: 64 Mpx </li>
                 <li> Kapacita batérie: 4500 mAh </li>
@@ -116,8 +116,8 @@ p    {color: rgb(121, 7, 60); font-size: larger;}
             <h3> Parametre:</h3>
             <ul>
                 <li> Uhlopriečka: 6,2" </li>
-                <li> Šírka: 71.2 mm </li>
-                <li> Výška: 151.7 mm </li>
+                <li> Šírka: 71,2 mm </li>
+                <li> Výška: 151,7 mm </li>
                 <li> Hmotnosť:  171 g </li>
                 <li> Hlavný fotoaparát: 64 Mpx </li>
                 <li> Kapacita batérie: 4000 mAh </li>
@@ -143,8 +143,8 @@ p    {color: rgb(121, 7, 60); font-size: larger;}
 
             <h3> Parametre:</h3>
             <ul>
-                <li> Uhlopriečka: 6.7 " </li>
-                <li> Šírka: 72.2 mm </li>
+                <li> Uhlopriečka: 6,7 " </li>
+                <li> Šírka: 72,2 mm </li>
                 <li> Výška: 166 mm </li>
                 <li> Hmotnosť:  183 g </li>
                 <li> Hlavný fotoaparát: 12 mpx </li>
@@ -152,8 +152,59 @@ p    {color: rgb(121, 7, 60); font-size: larger;}
             </ul>
             <p> <b>Cena:</b> 1 049,00  €</p>
             <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')"> Vložiť do košíka </button>
-
+        <br/>
+        <br/>
             
+<a href="#uvod"> <button> Úvod </button></a>
+<!--komentár-->
+
+<p> Prosím <a href="mailto:paulinkaorolinova@gmail.com"> kontaktujte nás </a> ak potrebujete viac informácií </p>
+
+<a href="index.html"> <img src="resources/images/electronics.jpg" width="400" height="200"> </a>
+
+<br/>
+
+<figure>
+    <img src="resources/images/mys.jpg" width="200" height="200" alt="fotografia myšky">
+    <figcaption> Na obrázku je myška značky HP </figcaption>
+</figure>
+
+<h1>
+    <img src="resources/images/1.gif" width="320" height="200" alt="led kocka" />
+</h1>
+
+<h1>
+    <img src="resources/images/2.gif" width="200" height="200" alt="wooow" />
+</h1>
+
+<table>
+    <thead> 
+        <tr> <th> Dátum </th> <th> Príjem </th> <th> Výdavky</th> <th> Predaj</th> <th> Kúpa </th></tr>
+    </thead>
+    
+    <tbody> 
+        <tr> <th> 8. január </th> <td colspan="2" rowspan="2"> 300 </td>  <td> 50 </td> <td> 99 </td> <td> 54 </td></tr>
+        <tr> <th> 2. február </th> <td> 400 </td> <td> 80 </td> <td> 80 </td> <td> 100 </td> </tr>
+        
+    </tbody>
+
+    <tfoot>
+        <tr> <th> Medzisúčet </th> <td> 700 </td> <td> 130 </td> <td> 179 </td> <td> 154</td> </tr>
+    </tfoot>
+</table>
+
+<br/>
+<br/>
+
+<form action="http://www.example.com/page.php" method="post">
+    <fieldset>
+        <legend> Kontaktné údaje </legend>
+        <label> Meno a Priezvisko <input type="text" name="kontaktné_údaje" size="30" maxlength="20"> </label> <br/> <br/>
+        <label> Emailová adresa: <input type="text" name="emailová_adresa" size="30" maxlength="100"> </label> <br/>
+    </fieldset>
+</form>
+
+<br/>
 
 
 </body>
